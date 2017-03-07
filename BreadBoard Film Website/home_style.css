@@ -1,0 +1,245 @@
+
+body 
+{
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family:  'Helvetica', sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background: white;
+}
+
+h1 
+{
+	margin: 0 0 25px -145px;
+	width:930px;
+	padding: 10px 10px 10px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffa709;
+	background: #333334;
+	border-bottom: 1px solid #b4a08a;
+}
+
+
+a:link, a:visited { color: #999999; text-decoration: none;} 
+a:active, a:hover { color: #999999; text-decoration: underline;}
+
+img 
+{
+	border: 1px solid #6c5b4c;
+}
+
+.form_row
+{
+	margin-bottom: 10px;
+}
+
+form
+{
+	margin: 0;
+	padding: 0;
+	text-align: right;	
+}
+
+label 
+{
+	margin-right: 10px;
+}
+
+input
+{
+	width: 130px;
+	height: 18px;
+	padding: 1px 0;
+	line-height: normal;
+	color: #99836c;
+	border: 1px solid #99836c;
+	background: #400a0a;
+}
+select
+{
+	color: #99836c;
+}
+
+.button
+{
+	width: 100%;
+	line-height: normal;
+	margin: 0;
+	height: 23px;
+}
+
+.b_sign_up
+{
+	width: 50%;
+	line-height: normal;
+	margin: 0;
+	height: 23px;
+}
+
+#music_container 
+{
+	margin: 0px auto;
+	width: 970px;
+	background: url(images/main_background.jpg) repeat-y;
+}
+
+#music_header 
+{
+	float: left;
+	width: 900px;
+	padding: 0 35px;
+	margin: 10px 0 10px 0;
+}
+
+#music_title 
+{
+	float: left;
+	width: 300px;
+}
+
+#music_sitetitle 
+{
+	padding: 30px 0px 25px 0;
+	font-size: 27.5px;
+	font-family: Lucida Bright;
+	font-weight: bold;
+	color:  #e6ecff;
+}
+#music_sitetitle span
+{
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#music_banner 
+{
+	clear: both;
+	width: 970px;
+	height: 256px;
+	background: url(images/banner1.jpg) no-repeat;
+}
+
+#music_banner_text 
+{
+	padding: 60px 0 0 225px;
+	width: 550px;
+}
+
+#banner_title
+{
+	margin: 0 0 25px 0;
+	padding: 0;
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: normal;
+	color: #ffa709;
+}
+
+#music_banner_text p
+{
+	margin: 0 0 25px 0;
+	color: #292a34;
+	font-family: verdana;
+	font-size: 12px;
+	padding: 0;
+}
+
+#music_content 
+{
+	float: left;
+	margin: 0;
+	padding: 0 10px;
+	width: 950px;
+}
+
+#music_right_column
+{
+	float: left;
+	margin: 25px 25px 0 145px;
+	padding: 0;
+	width: 650px;
+}
+
+.music_right_panel_fullwidth 
+{
+	float: left;
+	width: 650px;
+	padding: 0 0 25px 0;
+}
+
+.music_right_panel_fullwidth img
+{
+	float: left;
+	margin: 3px 10px 0 0;
+}
+
+.music_right_panel_fullwidth_content 
+{
+	float: left;
+	width: 620px;
+	padding: 0 15px 25px 15px;
+}
+
+.music_right_panel_fullwidth_content p
+{
+	text-align: justify;
+}
+
+#music_footer
+{
+	clear: both;
+	padding: 15px 0;
+	width: 950px;
+	margin: 0 10px;
+	text-align: center;
+	color: #000000;
+	background: #6c5b4c;
+	text-align: center;
+}
+
+#music_footer a
+{
+	color: #000000;
+}
+
+#music_footer a:hover
+{
+	color: #cccc66;
+}
+
+#sign_up
+{
+	color:white;
+	font-size:15px;
+	float: left;
+	width: 620px;
+	padding: 0 15px 25px 15px;
+	text-align:center;
+}
+
+#sign_up p
+{
+	text-align: center;
+}
+
+.sign_up_row
+{
+	color:yellow;
+}
+
+.signupbutton
+{
+	width: 60px;
+	line-height: normal;
+	float: left;
+	height: 23px;
+}
+
+
+#sign_up
+{
+	text-align: center;
+}

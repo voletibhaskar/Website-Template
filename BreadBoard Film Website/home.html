@@ -1,0 +1,145 @@
+<html>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<head>
+		<title>Breadboard Music</title>
+		<link href="music_style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="music_container">
+		
+			<div id="music_header">
+    			<div id="music_title">
+				<div id="music_sitetitle">BREADBOARD MUSIC</div>
+        		</div>
+        
+        	<div id="music_search">
+        	<form method="get" action="#">
+                <label>Search:</label><input class="input_search" name="keyword" type="text" id="keyword"/>
+                <input class="button" type="submit" name="Search" value="Search" />
+            </form>
+        </div>
+    </div>
+
+	<div id="music_banner">
+       	<div id="music_banner_text">
+            <div id="banner_title">Welcome</div>
+            <p>
+            Music is the divine way of connecting one's body with the soul. It was an
+            ancient technique used in all ages to cleanse and purify our body to
+            acheive stability and peace. 
+            Thus we hope you find your peace here too.
+            </p>
+            <div class="more_button button"><a href="history.php">Read More</a></div>
+    	</div>
+	</div>
+    
+    <div id="music_menu">
+     	<ul>
+			<li><a href="home.php" class="current">Home</a></li>
+            	<li><a href="subpage.php">Songs</a></li>
+            	<li><a href="subpage.php">Albums</a></li>  
+            	<li><a href="subpage.php">Artists</a></li>                      
+            	<li><a href="contacts.php" class="lastmenu">Contacts</a></li>            
+        	</ul>  
+    </div>
+    
+    <div id="music_content">
+    
+    	<div id="music_left_column">
+            <h2>Member Profile</h2>
+            <div class="left_col_box">
+                <form method="post" action="logout.php">
+                  <div class="Member"><label><?php echo $ro['First_Name'];?></label></div>
+				<a href="profile.php"><input class="button b_sign_up" type="button" name="Sign Up" value="View Profile"></a>
+				<input class="button" type="submit" name="Submit" value="Logout" />
+                </form>
+			</div>
+            
+            <div class="left_col_box">
+                <div class="blog_box">
+                    
+				</div>
+                
+                <div class="more_button button"></div>                                              
+			</div>
+		</div>
+        
+        <div id="music_right_column">
+        	<div id="new_released_section">
+            	<h1>Latest Albums</h1>
+            	<div class="new_released_box">
+                <img src="images/image01(140x140).jpg" alt="image" />
+				<h3><?php echo $song['Song_Name']?></h3>
+                    <h4><?php echo $song['Album']?></h4> 
+                    <h4><?php echo $song['Artist']?></h4>
+				<h4><?php echo $song['Genre']?></h4>  
+              <div class="rantsection">
+                        <label><?php echo $rating['Rating']?></label><img class="star" src="images/yellowstar.png" alt="star" />
+                    </div>
+                    <div class="more_button button"><a href="song.php">More</a></div>
+				</div>
+                <div class="new_released_box">
+                <img src="images/image02(140x140).jpg" alt="image" />
+                    <h3>Song No. 2</h3>
+                    <h4>Album No. 2</h4> 
+                    <h4>Artist Name 2</h4>
+				<h4>Genre</h4> 
+                    <div class="rantsection">
+                        <label>0.0</label><img class="star" src="images/yellowstar.png" alt="star" />
+                    </div>
+                    <div class="more_button button"><a href="#">More</a></div>
+				</div>
+                <div class="new_released_box">
+                <img src="images/image03(140x140).jpg" alt="image" />
+                    <h3>Song No. 3</h3>
+                    <h4>Album No. 3</h4> 
+                    <h4>Artist Name 3</h4>
+				<h4>Genre</h4> 
+                    <div class="rantsection">
+                        <label>0.0</label><img class="star" src="images/yellowstar.png" alt="star" />
+                    </div>
+                    <div class="more_button button"><a href="#">More</a></div>
+				</div>
+				
+            </div>
+            
+            <div class="music_right_panel_fullwidth">
+                <div id="news_section">
+				<h1>News </h1>
+                    <div class="news_box">
+                        <img src="images/sampleimage(110x110).png" alt="image" />
+                        <h3><?php echo $headl['News_Title']?></h3> 
+                        <h4><?php echo $headl['N_Date']?></h4>
+                    </div>
+                    <div class="more_button button" style="margin-left:15px;"><a href="subpage.php">View All</a></div>
+                </div>
+                
+                <div id="topdownload_section">
+                    <h1>Top Rated Songs</h1>
+                    <div class="topdownload_box">
+                        <div class="title_singer">Song Title 1 by <span>Artist 1</span></div><span class="download_button"><a class="download_button" href="#">Download</a></span>
+                    </div>
+                    <div class="topdownload_box">
+                        <div class="title_singer">Song Title 2 by <span>Artist 2</span></div><span class="download_button"><a class="download_button" href="#">Download</a></span>
+                    </div>
+                    <div class="topdownload_box">
+                        <div class="title_singer">Song Title 3 by <span>Artist 3</span></div><span class="download_button"><a class="download_button" href="#">Download</a></span>
+                    </div>
+                    <div class="topdownload_box">
+                        <div class="title_singer">Song Title 4 by <span>Artist 4</span></div><span class="download_button"><a class="download_button" href="#">Download</a></span>
+                    </div>
+                    <div class="topdownload_box">
+                        <div class="title_singer">Song Title 5 by <span>Artist 5</span></div><span class="download_button"><a class="download_button" href="#">Download</a></span>
+                    </div>   
+                </div>
+			</div>                
+            
+		</div>
+    </div>
+    
+	<div id="music_footer">
+    		    Copyright 2016 <a href="#"><strong>Breadboard Studios</strong></a>
+   	</div>
+		</div>
+  	</body>
+</html>
